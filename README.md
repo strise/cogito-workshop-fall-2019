@@ -7,7 +7,7 @@ Tema for denne analysen er Ole Gunnar Solskjær (OGS). I desember 2018 tok han o
 Resultatet av analysen du skal gjennomfør skal forsøke å gi et innblikk i hvordan mediene har omtalet OGS det siste året. Men før vi kan analysere må vi filtrere bort støy, slik at vi får høyere presisjon på resultatet.
 
 ## Setup
-Klon eller last ned dette repoet. Dette gjøres ved å klikke på den store grønne knappen oppe til høyre, eller ved å kjøre `git clone https://github.com/strise/cogito-workshop`. 
+Klon eller last ned dette repoet. Dette gjøres ved å klikke på den store grønne knappen oppe til høyre, eller ved å kjøre `git clone https://github.com/strise/workshop`. 
 Du trenger minimum Python 3.6 for å kjøre koden. Dersom du ikke har det kan du laste det ned [her](https://www.python.org/downloads/). 
 
 Naviger deretter til mappen med repoet i terminalen og kjør kommandoen `pip install -r requirements.txt` for å installere avhengigheter. Kjør til slutt `python -m textblob.download_corpora` for å laste ned nødvendige modeller. Hvis du står fast her, ikke nøl med å spørre!
