@@ -77,7 +77,7 @@ Når vi har TextBlob installert kan sentimentet til en setning finnes  ved å kj
 blob = TextBlob(sentence)
 sentiment = blob.sentiment.polarity
 ``` 
-Merk at `generate_sentiment_scores()`-metoden inneholder funksjonalitet for å filtrere bort artikler som ble publisert før OGS startet som manager, og etter sesongen som endte 13. Mai. Dette gjøres slik at man kan plotte sentimentet til OGS mot gjennomsnittlig poeng per uke for Manchester United. Dette kan gjøers ved hjelp av  `plot_sentiment_against_utd_results()`.
+Merk at `generate_sentiment_scores()`-metoden inneholder funksjonalitet for å filtrere bort artikler som ble publisert før OGS startet som manager, og etter sesongen som endte 13. Mai. Dette gjøres slik at man kan plotte sentimentet til OGS mot gjennomsnittlig poeng per uke for Manchester United. Dette kan gjøres ved hjelp av  `plot_sentiment_against_utd_results()`.
 
 ### Forslag 2: Top 20 adjektiv
 Finn listen over de vanligste adjektivene som befinner seg i setninger sammen med OGS. For å identifisere adjektiv må man utføre POS-tagging (part-of-speech tagging). Resultatet av POS-tagging er at hvert ord blir plassert i en grammatisk kategori. 
